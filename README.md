@@ -8,11 +8,16 @@ cd backend
 npm install
 Create .env file with MongoDB URI
 npm start
+
+
+
 Frontend:
 
 cd frontend
 npm install
 npm start
+
+
 Features Included:
 Dummy Login: Enter any referral code (demo: alex2025, sam2025)
 Dashboard Shows:
@@ -20,6 +25,8 @@ Intern name
 Referral code
 Total donations raised
 Rewards section
+
+
 Backend API:
 /api/intern/dashboard/:referralCode - Returns intern data
 /api/intern/leaderboard - Returns top 10 interns
